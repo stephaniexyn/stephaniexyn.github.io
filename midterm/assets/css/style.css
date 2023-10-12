@@ -1,0 +1,147 @@
+@font-face {
+  font-family: 'Mada Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Mada Regular'), url('Mada-Regular.woff') format('woff');
+  }
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 20px 20px 20px;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+#title1 {
+  font-family: 'Macondo';
+  font-size: 50px;
+  color: #2C200B
+}
+
+#title2 {
+  font-family: 'Macondo';
+  font-size: 35px;
+  letter-spacing: 20%;
+  color: #2C200B
+}
+
+.nav-bar {
+  width: auto;
+  display: table-row;
+  color: #2C200B
+}
+
+.nav {
+  font-family: 'Mada Regular';
+  font-size: 20px;
+  letter-spacing: 10%;
+  display: table-cell;
+  width: auto;
+  padding: 50px;
+}
+
+#main {
+  width: 100%;
+  height: 700px;
+  object-fit: none;
+  display: inherit;
+}
+
+#bg1 {
+  width: 100%;
+  height: 600px;
+  background-color: #F3EFE7;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  margin-top: 40px;
+  width: 250px;
+  height: 80px;
+  background-color: #DDB76E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-txt {
+  font-family: 'Mada Regular';
+  font-size: 25px;
+  color: white;
+}
+
+#bg2 {
+  width: 100%;
+  height: 50px;
+  background-color: #F3EFE7;
+}
+
+.container {
+  width: 100%;
+  height: 1400px;
+  display: flex;
+  flex-direction: row;
+}
+
+tr {
+  display: table-row;
+  width: 100%;
+  height: 300px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.row-img {
+  width: 50%;
+  height: 600px;
+  object-fit: none;
+  object-position: 70%;
+  display: inherit;
+}
+
+.img-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+#open {
+  font-size: 30px;
+  margin-block-end: 0;
+  font-family: 'Mada Regular';
+  color: #2C200B;
+  letter-spacing: 1px;
+}
+
+.txt {
+  font-size: 25px;
+  font-family: 'Mada Regular';
+  color: #2C200B;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  letter-spacing: 3px;
+}
+
+a {
+  text-decoration: none;
+  color:inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
